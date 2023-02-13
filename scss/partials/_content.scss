@@ -1,0 +1,87 @@
+@each $pic in $pics {
+  .ic-#{$pic}::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(../images/ic-#{$pic}.png) 50% no-repeat;
+    background-size: cover;
+    display: block;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+.content {
+  padding-top: 20px;
+
+  @include md {
+    padding-left: 110px;
+  }
+
+  &-span {
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    margin-left: 80px;
+    margin-top: 30px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 52px;
+      height: 1px;
+      background: $baseColor;
+      top: 50%;
+      left: -80px;
+    }
+  }
+
+  &-title {
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  &-about {
+    &-block {
+      background: #fff;
+      padding: 15px;
+      border-radius: 15px;
+    }
+
+    &-info {
+      margin: 0;
+    }
+  }
+
+
+
+  &-skills {
+    &-block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0 10px;
+      background: #fff;
+      border-radius: 20px;
+    }
+
+    &-link {
+      position: relative;
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $baseColor;
+      width: 90px;
+      height: 90px;
+      padding-top: 60px;
+      text-align: center;
+      background: #fff;
+      margin: 15px 5px;
+      border-radius: 15px;
+      box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    }
+  }
+}
