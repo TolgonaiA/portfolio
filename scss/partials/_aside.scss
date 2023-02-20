@@ -67,15 +67,16 @@
     &-span {
 
       font-weight: 300;
-      display: none;
+      padding-left: 15px;
+      //display: none;
 
     }
   }
 
-  &:hover .aside-link-span {
-    display: block;
-    padding-left: 40px;
-  }
+  //&:hover .aside-link-span {
+  //  display: block;
+  //  padding-left: 40px;
+  //}
 
   &-anchor {
     padding-bottom: 25px;

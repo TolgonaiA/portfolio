@@ -40,7 +40,7 @@ ul {
 }
 
 .violet {
-  color: #821cba;
+  color: rgb(130, 28, 186);
 }
 
 .header-inner {
@@ -136,7 +136,8 @@ ul {
 }
 .header-media-btn {
   border: none;
-  background: #821cba;
+  background: rgb(130, 28, 186);
+  text-decoration: none;
   border-radius: 20px;
   padding: 12px 27px;
   color: #fff;
@@ -177,7 +178,7 @@ ul {
   flex-direction: column;
   position: fixed;
   height: 100vh;
-  background: #821cba;
+  background: rgb(130, 28, 186);
   color: #fff;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +188,7 @@ ul {
   font-size: 36px;
   width: 100%;
   text-align: center;
-  background: #8d34e1;
+  background: rgb(141, 52, 225);
 }
 .aside-nav {
   padding: 0 15px;
@@ -205,7 +206,7 @@ ul {
 }
 .aside-list-item:hover {
   border-radius: 10px;
-  background: #8d34e1;
+  background: rgb(141, 52, 225);
   box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.2);
 }
 .aside-link {
@@ -217,11 +218,7 @@ ul {
 }
 .aside-link-span {
   font-weight: 300;
-  display: none;
-}
-.aside:hover .aside-link-span {
-  display: block;
-  padding-left: 40px;
+  padding-left: 15px;
 }
 .aside-anchor {
   padding-bottom: 25px;
@@ -305,6 +302,123 @@ ul {
   transform: translate(-50%);
 }
 
+.ic-react::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-react.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-node::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-node.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-typescript::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-typescript.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-mongo::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-mongo.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-figma::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-figma.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-tailwind::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-tailwind.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-mui::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-mui.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-jenkins::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-jenkins.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ic-psd::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ic-psd.png) 50% no-repeat;
+  background-size: cover;
+  display: block;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .content {
   padding-top: 20px;
 }
@@ -345,7 +459,7 @@ ul {
 .content-skills-block {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 10px;
   background: #fff;
   border-radius: 20px;

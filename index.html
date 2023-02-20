@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body> 
-   <aside class="aside-wrap nav-hidden" id="aside">
+   <aside class="aside-wrap" id="aside">
      <div class="aside">
         <p class="aside-logo">TA</p>
         <nav class="aside-nav">
@@ -80,14 +80,14 @@
               </p>
            </div>
           <div class="header-media">
-            <button class="header-media-btn">Resume</button>
-            <a href="#" class="header-media-link">
+            <a href="doc/Andakulova%20Tolgonai.pdf" class="header-media-btn" download>CV</a>
+            <a href="https://github.com/TolgonaiA" class="header-media-link" target="_blank">
               <span class="icon-github header-media-link-span"></span>
             </a>
             <a href="#" class="header-media-link">
               <span class="icon-linkedin-square header-media-link-span"></span>
             </a>
-            <a href="#" class="header-media-link">
+            <a href="https://tolgonai_a.t.me/" class="header-media-link" target="_blank">
               <span class="icon-telegram header-media-link-span"></span>
             </a>
           </div>
@@ -122,14 +122,22 @@
           <h3 class="content-title">
             skills
           </h3>
-          <div class="content-skills-block">
-            <a href="#" class="content-skills-link ic-html">html</a>
-            <a href="#" class="content-skills-link ic-css">css</a>
-            <a href="#" class="content-skills-link ic-js">js</a>
-            <a href="#" class="content-skills-link ic-vscode">vscode</a>
-            <a href="#" class="content-skills-link ic-sass">sass</a>
-            <a href="#" class="content-skills-link ic-bootstrap">bootstrap</a>
-          </div>
+          <ul class="content-skills-block">
+            <li class="content-skills-link ic-html">html</li>
+            <li class="content-skills-link ic-css">css</li>
+            <li class="content-skills-link ic-js">js</li>
+            <li class="content-skills-link ic-sass">sass</li>
+            <li class="content-skills-link ic-bootstrap">bootstrap</li>
+            <li class="content-skills-link ic-react">react</li>
+            <li class="content-skills-link ic-node">NodeJS</li>
+            <li class="content-skills-link ic-typescript">typescript</li>
+            <li class="content-skills-link ic-mongo">mongoDB</li>
+            <li class="content-skills-link ic-figma">figma</li>
+            <li class="content-skills-link ic-tailwind">tailwind</li>
+            <li class="content-skills-link ic-mui">mui</li>
+            <li class="content-skills-link ic-jenkins">jenkins</li>
+            <li class="content-skills-link ic-psd">photoshop</li>
+          </ul>
          </div>
        </section>
        <section class="contact">
@@ -153,24 +161,12 @@
                 <span class="contact-span">Text Me</span>
               </div>
             </div>
-            <h4 class="contact-title">
-              Contact Form
-            </h4>
-            <div class="contact-form">
-              <form action="#">
-                <input type="text" name="" id="" placeholder="Enter your name*">
-                <input type="email" name="" id="" placeholder="Enter your email*">
-                <input type="text" name="" id="" placeholder="Subject*">
-                <textarea name="" id="" cols="30" rows="10">Your message*</textarea>
-                <button type="submit">send</button>
-              </form>
-            </div>
           </div>
        </section>
      </div>
    </main>
   
-   <script src="js/nav.js">    
+   <script src="js/nav.js">
    </script>
 </body>
 </html>
