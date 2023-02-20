@@ -101,11 +101,18 @@
       background: #fff;
       border-radius: 20px;
       align-items: center;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
     }
 
     &-img {
       margin-right: 20px;
+
+      &-item {
+        display: block;
+      }
     }
+
 
     &-desc {
       font-size: 16px;
