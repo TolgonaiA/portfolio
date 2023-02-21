@@ -14,7 +14,7 @@
   &-inner {
     display: flex;
     flex-direction: column;
-    padding: 35px 0;
+    padding: 85px 0 35px;
 
     @include md {
       flex-direction: row;

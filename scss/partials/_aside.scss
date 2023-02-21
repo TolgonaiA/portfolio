@@ -1,46 +1,18 @@
-.aside-wrap {
-  position: absolute;
-  left: -200px;
-  transition: all 0.3s ease-in;
-
-  @include md {
-    left: 0;
-  }
-}
-
-.nav-hidden {
-  left: 0;
-}
-
-
 .aside {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  height: 100vh;
-  background: $themeColor;
-  color: #fff;
-  justify-content: space-between;
-  align-items: center;
-
-
-
-
-  &-logo {
-    padding: 25px 0;
-    font-size: 36px;
-    width: 100%;
-    text-align: center;
-    background: rgb(141, 52, 225);
-  }
-
   &-nav {
+    width: 100%;
     padding: 0 15px;
+    display: flex;
+    position: fixed;
+    background: $themeColor;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
   }
 
   &-list {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding: 20px 0;
 
@@ -78,9 +50,6 @@
   //  padding-left: 40px;
   //}
 
-  &-anchor {
-    padding-bottom: 25px;
-  }
 
 
 }
