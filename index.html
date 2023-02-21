@@ -16,48 +16,45 @@
 </head>
 <body> 
    <header class="header">
-     <nav class="aside-nav">
-       <ul class="aside-list container">
-         <li class="aside-list-item">
-           <a href="#" class="aside-link">
-             <span class="icon-home"></span>
-             <span class="aside-link-span">home</span>
-           </a>
-         </li>
-         <li class="aside-list-item">
-           <a href="#" class="aside-link">
-             <span class="icon-user-o"></span>
-             <span class="aside-link-span">about</span>
-           </a>
-         </li>
-         <li class="aside-list-item">
-           <a href="#" class="aside-link">
-             <span class="icon-laptop"></span>
-             <span class="aside-link-span">skills</span>
-           </a>
-         </li>
-         <li class="aside-list-item">
-           <a href="#" class="aside-link">
-             <span class="icon-folder-outline"></span>
-             <span class="aside-link-span">projects</span>
-           </a>
-         </li>
-         <li class="aside-list-item">
-           <a href="#" class="aside-link">
-             <span class="icon-phone"></span>
-             <span class="aside-link-span">contacts</span>
-           </a>
-         </li>
-       </ul>
-     </nav>
-
+     <div class="aside-nav">
+       <nav class="container">
+         <ul class="aside-list" id="nav">
+           <li class="aside-list-item">
+             <a href="#home" class="aside-link">
+               <span class="aside-link-span">home</span>
+             </a>
+           </li>
+           <li class="aside-list-item">
+             <a href="#about" class="aside-link">
+               <span class="aside-link-span">about</span>
+             </a>
+           </li>
+           <li class="aside-list-item">
+             <a href="#skills" class="aside-link">
+               <span class="aside-link-span">skills</span>
+             </a>
+           </li>
+           <li class="aside-list-item">
+             <a href="#projects" class="aside-link">
+               <span class="aside-link-span">projects</span>
+             </a>
+           </li>
+<!--           <li class="aside-list-item">-->
+<!--             <a href="#" class="aside-link">-->
+<!--               <span class="aside-link-span">contacts</span>-->
+<!--             </a>-->
+<!--           </li>-->
+         </ul>
+       </nav>
+     </div>
      <div class="container">
        <div class="header-inner">
-         <button type="button" id="navBtn" class="header-btn">
-           <span class="header-btn-item"></span>
-         </button>
+<!--         <button type="button" id="navBtn" class="header-btn">-->
+<!--           <span class="header-btn-item"></span>-->
+<!--         </button>-->
 
          <div class="header-avatar">
+           <a name="home"></a>
            <div class="header-avatar-img">
            <img src="images/TA.png" alt="tolgonai" class="header-avatar-img-pic">
          </div>
@@ -97,7 +94,8 @@
    <main class="main">
      <div class="container">
        <section class="content">
-         <div class="content-about">
+         <a name="about"></a>
+         <div class="content-about" >
           <span class="content-span">some info about me</span>
           <div class="content-about-block">
             <p class="content-about-info">
@@ -111,6 +109,7 @@
           </div>
          </div>
          <div class="content-skills">
+           <a name="skills"></a>
           <span class="content-span">check out my skills</span>
           <ul class="content-skills-block">
             <li class="content-skills-link ic-html">html</li>
@@ -130,6 +129,7 @@
           </ul>
          </div>
          <div class="content-portfolio">
+           <a name="projects"></a>
            <span class="content-span">have a look at my pet-projects</span>
            <div class="content-portfolio-block">
              <a class="content-portfolio-img" href="https://tolgonaia.github.io/freedom/" target="_blank">

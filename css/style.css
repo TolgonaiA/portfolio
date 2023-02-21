@@ -48,7 +48,7 @@ ul {
   flex-direction: column;
   padding: 85px 0 35px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .header-inner {
     flex-direction: row;
     justify-content: space-around;
@@ -61,7 +61,7 @@ ul {
   border: none;
   background: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 630px) {
   .header-btn {
     display: none;
   }
@@ -93,20 +93,19 @@ ul {
     box-shadow: 7px 0 0px rgba(130, 28, 186, 0.2), 14px 0 0px rgba(130, 28, 186, 0.1), 21px 0 0px rgba(130, 28, 186, 0.05);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 630px) {
   .header-avatar-img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .header-avatar-img-pic {
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 630px) {
   .header-avatar {
     width: 60%;
-    padding-left: 100px;
   }
 }
 .header-desc {
@@ -164,7 +163,6 @@ ul {
 
 .aside-nav {
   width: 100%;
-  padding: 0 15px;
   display: flex;
   position: fixed;
   background: rgb(130, 28, 186);
@@ -174,14 +172,19 @@ ul {
   z-index: 50;
 }
 .aside-list {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
+  display: none;
+}
+@media screen and (min-width: 630px) {
+  .aside-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
 }
 .aside-list-item {
-  padding: 15px;
   list-style-type: none;
-  margin-bottom: 10px;
+  margin: 0 10px;
+  padding: 5px 8px;
 }
 .aside-list-item:hover {
   border-radius: 10px;
@@ -197,7 +200,6 @@ ul {
 }
 .aside-link-span {
   font-weight: 300;
-  padding-left: 15px;
 }
 
 .ic-html::before {
@@ -492,7 +494,7 @@ ul {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 630px) {
   .contact-links {
     flex-direction: row;
   }
