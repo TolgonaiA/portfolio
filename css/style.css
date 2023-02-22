@@ -173,6 +173,13 @@ ul {
   padding: 20px 0;
 }
 .aside-list {
+  display: block;
+  position: absolute;
+  background: rgb(130, 28, 186);
+  left: 0;
+  margin-top: 20px;
+}
+.aside-list-media {
   display: none;
 }
 @media screen and (min-width: 630px) {

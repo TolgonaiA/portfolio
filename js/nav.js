@@ -17,32 +17,11 @@
 const btn = document.getElementById("navBtn");
 const nav = document.getElementById("nav");
 
-// if (window.innerWidth < 901) {
-//   btn.classList.add('header-btn');
-//   nav.classList.add('aside-nav-media');
-// }
-//
-//
-// const reportWindowSize = () => {
-//   if (window.innerWidth < 901) {
-//     btn.classList.add('btn-media');
-//     nav.classList.add('main-nav-media');
-//     // socials.classList.add('socials-media');
-//   } else if (window.innerWidth >= 901) {
-//     btn.classList.remove('btn-media');
-//     nav.classList.remove('main-nav-media');
-//     // socials.classList.remove('socials-media');
-//   }
-// }
-//
-// window.onresize = reportWindowSize;
-//
-// window.addEventListener("resize", reportWindowSize);
-//
-// btn.addEventListener('click', () => {
-//   if (nav.classList.contains('main-nav-media-show')) {
-//     nav.classList.remove('main-nav-media-show')
-//   } else {
-//     nav.classList.add('main-nav-media-show')
-//   }
-// });
+btn.addEventListener('click', () => {
+  if (nav.classList.contains('aside-list-media')) {
+    nav.classList.remove('aside-list-media')
+  } else {
+    nav.classList.add('aside-list-media')
+  }
+  console.log(1)
+});
