@@ -109,14 +109,21 @@
 
 
     &-img {
+      display: block;
+      margin: 0 auto;
 
       @include md {
-        margin-right: 20px;
+        margin: 0 20px 0 0;
       }
 
 
       &-item {
         display: block;
+        width: 100%;
+
+        @include md {
+          width: auto;
+        }
       }
     }
 

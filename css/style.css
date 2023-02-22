@@ -478,13 +478,23 @@ ul {
     flex-direction: row;
   }
 }
+.content-portfolio-img {
+  display: block;
+  margin: 0 auto;
+}
 @media screen and (min-width: 630px) {
   .content-portfolio-img {
-    margin-right: 20px;
+    margin: 0 20px 0 0;
   }
 }
 .content-portfolio-img-item {
   display: block;
+  width: 100%;
+}
+@media screen and (min-width: 630px) {
+  .content-portfolio-img-item {
+    width: auto;
+  }
 }
 .content-portfolio-desc {
   font-size: 16px;
