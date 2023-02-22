@@ -25,6 +25,7 @@
 
     @include md {
       display: flex;
+      position: initial;
       justify-content: space-between;
     }
 

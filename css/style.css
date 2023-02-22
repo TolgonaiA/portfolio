@@ -185,6 +185,7 @@ ul {
 @media screen and (min-width: 630px) {
   .aside-list {
     display: flex;
+    position: initial;
     justify-content: space-between;
   }
 }
