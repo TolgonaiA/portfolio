@@ -2,7 +2,7 @@
   display: block;
   width: 35px;
   height: 2px;
-  background: $baseColor;
+  background: #fff;
 }
 
 .violet {
@@ -28,6 +28,7 @@
     cursor: pointer;
     border: none;
     background: none;
+    padding: 15px;
 
     @include md {
       display: none;
@@ -41,14 +42,14 @@
         content: '';
         position: absolute;
         @extend %btn-span;
-        top: 8px;
+        top: 10px;
       }
 
       &::after {
         content: '';
         position: absolute;
         @extend %btn-span;
-        top: -8px;
+        top: -10px;
       }
     }
 
@@ -135,7 +136,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
       width: 40px;
       height: 40px;
       border-radius: 5px;
