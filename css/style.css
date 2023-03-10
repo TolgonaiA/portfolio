@@ -501,7 +501,8 @@ ul {
 }
 @media screen and (min-width: 630px) {
   .content-portfolio-img-item {
-    width: auto;
+    width: 350px;
+    height: 300px;
   }
 }
 .content-portfolio-desc {
